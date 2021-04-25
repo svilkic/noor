@@ -1,3 +1,4 @@
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Pocetna from "./screens/Pocetna";
@@ -6,7 +7,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Pocetna />
+      <Switch>
+        <Route path="/" component={Pocetna} />
+      </Switch>
     </div>
   );
 }
