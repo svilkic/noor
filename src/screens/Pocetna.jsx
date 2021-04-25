@@ -7,11 +7,11 @@ const Pocetna = () => {
       <Header />
       <div className="section bg-white">
         <div className="container-2 w-container">
-          <h1 className="heading-3">
+          <h2 className="heading-2">
             Želite Da Vaš Brend Bude
             <br />
             Bolje Primećen?
-          </h1>
+          </h2>
           <div className="w-layout-grid grid">
             <div className="service-card">
               <img

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="container w-container">
-        <h3 className="heading">Digitalni&nbsp; marketing</h3>
+        <h3 className="heading-3">Digitalni&nbsp; marketing</h3>
         <h1 className="heading-1">Potpune Usluge Digitalnog Marketinga</h1>
         <p className="paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
