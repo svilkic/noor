@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = (props) => {
   return (
-    <div className={`service-card ${props.className}`}>
+    <div className={`service-card ${props.className && props.className}`}>
       <img
         src={props.image}
         className="image"
@@ -10,7 +10,7 @@ export const Card = (props) => {
         width="35"
         height="35"
       />
-      <div className="service-card-info p3">
+      <div className="p2">
         <h5>{props.main}</h5>
         <p>{props.description}</p>
       </div>
