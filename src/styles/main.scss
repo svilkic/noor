@@ -83,6 +83,16 @@ h3 {
   );
 }
 
+.btn-secondary {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: $color-primary-light;
+}
+
+.shadow-low {
+  @include shadow-low;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;

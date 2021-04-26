@@ -1,17 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ page, mainMessage, shortMessage }) => {
   return (
     <div className="header">
       <div className="container w-container">
-        <h3 className="heading-3 mb3">Digitalni&nbsp; marketing</h3>
-        <h1 className="heading-1">Potpune Usluge Digitalnog Marketinga</h1>
-        <p className="paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-        </p>
+        {page && <h3 className="heading-3 mb2">{page}</h3>}
+        <h1 className="heading-1">{mainMessage}</h1>
+        <p className="paragraph">{shortMessage}</p>
         <Link to="#" className="btn btn-lg btn-primary w-button">
           Naše Usluge
         </Link>

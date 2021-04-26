@@ -1,7 +1,19 @@
-@import 'font';
-@import 'headers';
+@import "font";
+@import "headers";
 
-@import 'misc';
-@import 'links';
-@import 'monospace';
-@import 'tables';
+@import "misc";
+@import "links";
+@import "monospace";
+@import "tables";
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-start {
+  text-align: start;
+}

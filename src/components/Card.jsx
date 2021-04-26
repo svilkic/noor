@@ -11,7 +11,7 @@ export const Card = (props) => {
         height="35"
       />
       <div className="p2">
-        <h5>{props.main}</h5>
+        <h4>{props.main}</h4>
         <p>{props.description}</p>
       </div>
     </div>

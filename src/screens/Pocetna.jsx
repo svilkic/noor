@@ -7,7 +7,11 @@ import { Card } from "../components/Card";
 const Pocetna = () => {
   return (
     <div>
-      <Header />
+      <Header
+        page="Digitalni&nbsp; marketing"
+        mainMessage="Potpune Usluge Digitalnog Marketinga"
+        shortMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+      />
       <div className="section bg-white-gray">
         <div className="container d-flex text-center flex-column">
           <h2 className="heading-2 mb2">
@@ -148,7 +152,7 @@ const Pocetna = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer callBtn="Zakažite konsultacije" />
     </div>
   );
 };

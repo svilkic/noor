@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Footer = () => {
+export const Footer = ({ callBtn }) => {
   return (
     <div className="footer bg-gradiant-primary">
       <img src="/images/border3.svg" className="border-footer" />
@@ -17,9 +17,11 @@ export const Footer = () => {
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
             vitae erat.
           </p>
-          <Link to="#" className="btn btn-lg btn-primary w-button">
-            Zakažite konsultacije
-          </Link>
+          {callBtn && (
+            <Link to="#" className="btn btn-lg btn-primary w-button">
+              Zakažite konsultacije
+            </Link>
+          )}
         </div>
 
         <div>
