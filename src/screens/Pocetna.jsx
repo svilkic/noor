@@ -9,13 +9,13 @@ const Pocetna = () => {
     <div>
       <Header />
       <div className="section bg-white-gray">
-        <div className="w-container text-center max-width-85">
-          <h2 className="heading-2">
+        <div className="container d-flex text-center flex-column">
+          <h2 className="heading-2 mb2">
             Želite Da Vaš Brend Bude
             <br />
             Bolje Primećen?
           </h2>
-          <div className="w-layout-grid grid">
+          <div className="d-grid grid-4">
             <Card
               image=""
               alt=""
@@ -69,7 +69,7 @@ const Pocetna = () => {
       </div>
 
       <div className="section bg-gray">
-        <div className="container-3 w-container">
+        <div className="d-flex container">
           <img
             src="./index_files/6082d44767056261ee3553d7_laptop-analytics-2.png"
             loading="lazy"
@@ -108,9 +108,9 @@ const Pocetna = () => {
       </div>
 
       <div className="section bg-white-gray">
-        <div className="w-container">
+        <div className="container">
           <h2 className="heading-2 text-center mb-3">Neki Od Komentara</h2>
-          <div className="grid-3 line-1-5">
+          <div className="d-grid grid-3 line-1-5 ">
             <Card
               className="line-height-2"
               image=""

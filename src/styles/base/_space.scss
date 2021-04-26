@@ -1,0 +1,21 @@
+$spaceamounts: ("0", "1", "2", "3", "4", "5", "6");
+
+$sides: (
+  "": "all",
+  "t": "top",
+  "b": "bottom",
+  "l": "left",
+  "r": "right",
+);
+
+@each $space in $spaceamounts {
+  @each $prefix, $value in $sides {
+    $property: if($prefix == "", "", -#{$value});
+    .m#{$prefix}#{$space} {
+      margin#{$property}: #{$space}em !important;
+    }
+    .p#{$prefix}#{$space} {
+      padding#{$property}: #{$space}em !important;
+    }
+  }
+}

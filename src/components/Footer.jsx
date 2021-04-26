@@ -3,71 +3,38 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="w-container">
-        <div className="footer-flex-container">
-          <a href="#" className="footer-logo-link">
-            <img
-              src="./index_files/5db86dc421496616bf357c25_placeholder.svg"
-              alt=""
-              className="footer-image"
-            />
-          </a>
-          <div>
-            <ul role="list" className="w-list-unstyled">
-              <li>
-                <Link to="#" className="footer-link">
-                  Početna
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="footer-link">
-                  Kontakt
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="footer-link">
-                  O nama
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="footer-link">
-                  Usluge
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul role="list" className="w-list-unstyled">
-              <li>
-                <Link to="#" className="footer-link">
-                  Facebook
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="footer-link">
-                  Instagram
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul role="list" className="w-list-unstyled">
-              <li>
-                <Link to="#" className="footer-link">
-                  +381655103730
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="footer-link">
-                  contact.noorcreators@gmail.com
-                </Link>
-              </li>
-            </ul>
-          </div>
+    <div className="footer bg-gradiant-primary">
+      <img src="/images/border3.svg" className="border-footer" />
+      <footer className="mb4">
+        <div className="container w-container">
+          <h3 className="heading-3">Počnimo zajedno</h3>
+          <h1 className="heading-1">
+            Spremni ste da napravite nešto novo? Hajde da počnemo!
+          </h1>
+          <p className="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <Link to="#" className="btn btn-lg btn-primary w-button">
+            Zakažite konsultacije
+          </Link>
         </div>
-        <div>Copyright © 2021 Noor. All rights reserved.</div>
+
+        <div>
+          <div className="circle-el"></div>
+          <div className="circle-el-1"></div>
+          <div className="cube-el"></div>
+          <div className="cube-el-2"></div>
+          <div className="line-el-2"></div>
+          <div className="line-el"></div>
+          <div className="circle-el-2"></div>
+        </div>
+      </footer>
+      <div>
+        Copyright © {new Date().getFullYear()} Noor. All rights reserved.
       </div>
-    </footer>
+    </div>
   );
 };

@@ -10,7 +10,7 @@ export const Card = (props) => {
         width="35"
         height="35"
       />
-      <div className="service-card-info">
+      <div className="service-card-info p3">
         <h5>{props.main}</h5>
         <p>{props.description}</p>
       </div>
