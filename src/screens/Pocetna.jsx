@@ -11,6 +11,7 @@ const Pocetna = () => {
         page="Digitalni&nbsp; marketing"
         mainMessage="Potpune Usluge Digitalnog Marketinga"
         shortMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
+        btn="Nase usluge"
       />
       <div className="section bg-white-gray">
         <div className="container d-flex text-center flex-column">

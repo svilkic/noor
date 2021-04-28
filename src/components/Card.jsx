@@ -10,7 +10,7 @@ export const Card = (props) => {
         width="35"
         height="35"
       />
-      <div className="p2">
+      <div className="">
         <h4>{props.main}</h4>
         <p>{props.description}</p>
       </div>
