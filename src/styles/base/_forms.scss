@@ -18,8 +18,7 @@ textarea,
 select {
   font-size: $p-size;
   background-color: $white;
-  // border: 1px solid $color-border;
-  border: none;
+  border: 1px solid transparent;
   border-radius: $border-radius;
   font-family: $font-name;
   height: 2.2em;

@@ -5,6 +5,11 @@
 @import "links";
 @import "monospace";
 @import "tables";
+@import "../variables";
+
+.muted {
+  color: $color-text-muted;
+}
 
 .text-center {
   text-align: center;

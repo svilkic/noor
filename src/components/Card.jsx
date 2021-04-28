@@ -12,7 +12,7 @@ export const Card = (props) => {
       />
       <div className="">
         <h4>{props.main}</h4>
-        <p>{props.description}</p>
+        <p className="muted">{props.description}</p>
       </div>
     </div>
   );

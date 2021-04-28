@@ -9,7 +9,7 @@ const Kontakt = () => {
     <div>
       <Header
         page="Kontaktirajte nas"
-        mainMessage="Potpune Usluge Digitalnog Marketinga"
+        mainMessage="Napravimo nešto zajedno"
         shortMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
       />
 
