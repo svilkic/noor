@@ -5,8 +5,8 @@
   margin: 0 auto;
   padding-right: 1rem;
   padding-left: 1rem;
-  width: 1240px;
-  z-index: 2;
+  max-width: 1140px;
+  z-index: 10;
   text-align: center;
 
   @include mobile {
@@ -16,7 +16,9 @@
   @include tablet {
     max-width: 85%;
   }
-
+  @include tablet-landscape-down {
+    max-width: 85%;
+  }
   @include desktop-up {
     max-width: 1400px;
   }
@@ -92,6 +94,12 @@
     flex-direction: row !important;
   }
 
+  &.just-center {
+    justify-content: center;
+  }
+  &.just-end {
+    justify-content: flex-end;
+  }
   &.just-between {
     justify-content: space-between;
   }

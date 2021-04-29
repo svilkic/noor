@@ -4,10 +4,10 @@ export const Card = (props) => {
   return (
     <div className={`service-card ${props.className && props.className}`}>
       {props.icon && props.icon}
-      {props.img && (
+      {props.image && (
         <img
-          src={props.image}
           className="image"
+          src={props.image}
           alt={props.alt}
           width="35"
           height="35"

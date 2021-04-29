@@ -3,6 +3,16 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { Card } from "../components/Card";
+import {
+  MdTv,
+  MdFormatColorFill,
+  MdPeople,
+  MdSentimentSatisfied,
+  MdGroupAdd,
+  MdTrendingUp,
+  MdEmail,
+  MdFormatShapes,
+} from "react-icons/md";
 
 const Pocetna = () => {
   return (
@@ -22,51 +32,44 @@ const Pocetna = () => {
           </h2>
           <div className="d-grid grid-4">
             <Card
-              image=""
-              alt=""
+              icon={<MdFormatColorFill style={{ fontSize: "35px" }} />}
               main="Brend Dizajn &amp; Strategija"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
-              image=""
-              alt=""
+              icon={<MdPeople style={{ fontSize: "35px" }} />}
               main="Vođenje drustvenih mreža"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
+
             <Card
-              image=""
-              alt=""
-              main="Brend Dizajn &amp; Strategija"
+              icon={<MdTrendingUp style={{ fontSize: "35px" }} />}
+              main="Audience Analytics"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
-              image=""
-              alt=""
-              main="Vođenje drustvenih mreža"
+              icon={<MdSentimentSatisfied style={{ fontSize: "35px" }} />}
+              main="SEO"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
-              image=""
-              alt=""
-              main="Brend Dizajn &amp; Strategija"
+              icon={<MdFormatShapes style={{ fontSize: "35px" }} />}
+              main="Copywriting"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
-              image=""
-              alt=""
-              main="Vođenje drustvenih mreža"
+              icon={<MdGroupAdd style={{ fontSize: "35px" }} />}
+              main="Team Training"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
-              image=""
-              alt=""
-              main="Brend Dizajn &amp; Strategija"
+              icon={<MdTv style={{ fontSize: "35px" }} />}
+              main="Web Development"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
-              image=""
-              alt=""
-              main="Vođenje drustvenih mreža"
+              icon={<MdEmail style={{ fontSize: "35px" }} />}
+              main="Email Marketing"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
@@ -77,7 +80,7 @@ const Pocetna = () => {
         <div className="container ">
           <div
             className="d-grid grid-2 "
-            style={{ gridTemplateColumns: "3fr 1fr" }}
+            style={{ gridTemplateColumns: "2fr 1fr" }}
           >
             <img src="/images/laptop.png" loading="lazy" alt="" />
             <div className="div-block-2">
