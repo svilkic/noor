@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to="#" className="w-nav-link">
             Usluge
           </Link>
-          <Link to="#" className="w-nav-link">
+          <Link to="/portfolio" className="w-nav-link">
             Portfolio
           </Link>
         </nav>

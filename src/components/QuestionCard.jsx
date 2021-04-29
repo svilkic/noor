@@ -16,7 +16,7 @@ const QuestionCard = ({ answer, color = "gray", question }) => {
         </h4>
         <MdAddCircleOutline />
       </div>
-      <p className="text-start" hidden={!display}>
+      <p className="text-start muted paragraph mt1" hidden={!display}>
         {answer}
       </p>
     </div>

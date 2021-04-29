@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { Card } from "../components/Card";
+import { MdEmail, MdAccessTime, MdPhoneInTalk } from "react-icons/md";
 
 const Kontakt = () => {
   return (
@@ -18,24 +19,24 @@ const Kontakt = () => {
           <div className="d-grid grid-3 line-1-5 ">
             <Card
               className="line-height-2"
-              image=""
+              icon={<MdPhoneInTalk style={{ fontSize: "30px" }} />}
               alt=""
               main="Kontakt broj"
-              description="+(381)653450133"
+              description="+ (381) 65 345 01 33"
             />
             <Card
               className="line-height-2"
-              image=""
+              icon={<MdEmail style={{ fontSize: "30px" }} />}
               alt=""
               main="Email adresa"
               description="contact.noorcreators@gmail.com"
             />
             <Card
+              icon={<MdAccessTime style={{ fontSize: "30px" }} />}
               className="line-height-2"
-              image=""
               alt=""
               main="Radno vreme"
-              description="Ponedeljak - Petak : 10:00 – 17:00pm"
+              description="Ponedeljak - Petak 10:00 – 17:00pm"
             />
           </div>
         </div>

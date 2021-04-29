@@ -62,37 +62,19 @@ const Onama = () => {
             </p>
             <QuestionCard
               color="darkblue"
-              question="Diligence"
+              question="Kvalitet"
               answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi nunc, facilisis sed erat sed, interdum suscipit nisl. Donec ut ligula sed dolor accumsan placerat. Ut sed felis vitae augue condimentum viverra. Praesent condimentum magna sit amet dui interdum sodales. Ut tincidunt ipsum leo, nec hendrerit odio"
             />
             <QuestionCard
               color="orange"
-              question="Diligence"
+              question="Uspeh"
               answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi nunc, facilisis sed erat sed, interdum suscipit nisl. Donec ut ligula sed dolor accumsan placerat. Ut sed felis vitae augue condimentum viverra. Praesent condimentum magna sit amet dui interdum sodales. Ut tincidunt ipsum leo, nec hendrerit odio"
             />
             <QuestionCard
               color="green"
-              question="Diligence"
+              question="100% Zadovoljstvo"
               answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi nunc, facilisis sed erat sed, interdum suscipit nisl. Donec ut ligula sed dolor accumsan placerat. Ut sed felis vitae augue condimentum viverra. Praesent condimentum magna sit amet dui interdum sodales. Ut tincidunt ipsum leo, nec hendrerit odio"
             />
-          </div>
-        </div>
-        <img
-          src="/images/border1.svg"
-          loading="lazy"
-          alt=""
-          className="image-3"
-        />
-      </div>
-      <div className="section bg-white-gray">
-        <div className="container d-flex">
-          <img src="/images/twophones.png" />
-          <div>
-            <h2 className="heading-2 text-start ">Naše vrednosti</h2>
-            <p className="mb3">
-              Interested in driving growth? Have a general question? We’re just
-              an email away.
-            </p>
           </div>
         </div>
       </div>
