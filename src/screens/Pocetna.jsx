@@ -120,46 +120,19 @@ const Pocetna = () => {
 
       <div className="section bg-white-gray">
         <div className="container">
-          <h2 className="heading-2 text-center mb-3">Neki Od Komentara</h2>
+          <h2 className="heading-2 text-center mb-3">Portfolio</h2>
           <div className="d-grid grid-3 line-1-5 ">
-            <Card
-              className="line-height-2"
-              image=""
-              alt=""
-              main="Debra Becker"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
-            />
-            <Card
-              className="line-height-2"
-              image=""
-              alt=""
-              main="Angel Witicker"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
-            />
-            <Card
-              className="line-height-2"
-              image=""
-              alt=""
-              main="John Wise"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis cursus,
-            mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-            libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-            lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
-            />
+            <h3>Uskoro ...</h3>
           </div>
         </div>
       </div>
 
-      <Footer callBtn="Zakažite konsultacije" />
+      <Footer
+         mainMessage="Kako mi stvaramo digitalnu magiju?"
+         shortMessage="Saznaj kako nastaju najlepše digitalne priče i kako mi činimo da one budu upečatljive i jedinstvene."
+         btn="Saznaj više"
+         btnLink="/portfolio"
+      />
     </div>
   );
 };

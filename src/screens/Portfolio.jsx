@@ -6,7 +6,9 @@ import { Job } from "../components/Job";
 const Portfolio = () => {
   return (
     <div>
-      <Header page="Portfolio" mainMessage="Nedavni Radovi" />
+      <Header 
+      page="Portfolio" 
+      mainMessage="Magija koju je stvorio Noor tim" />
       <div
         className="section bg-white-gray pb1"
         style={{ overflow: "initial" }}
@@ -53,7 +55,12 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer 
+          mainMessage=" I tvoja online priča moze biti jedinstvena i upečatljiva."
+          shortMessage="Zakazi online konsultacije i saznaj koje su usluge potrebne tvom brendu"
+          btn="Let the magic begin"
+          btnLink="/kontakt"
+      />
     </div>
   );
 };

@@ -19,32 +19,17 @@ const Onama = () => {
         style={{ overflow: "initial" }}
       >
         <div className="container">
-          <img
+          {/* <img
             src="/images/laptop-clouds.png"
             style={{ position: "relative", marginTop: "-17em" }}
-          />
+          /> */}
           <h2 className="text-start">
-            Our Approach to Digital Marketing is Centered Around Learning &
-            Growing With Your Users
+            Ko smo mi?
           </h2>
           <p className="text-start paragraph muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mi nunc,
-            facilisis sed erat sed, interdum suscipit nisl. Donec ut ligula sed
-            dolor accumsan placerat. Ut sed felis vitae augue condimentum
-            viverra. Praesent condimentum magna sit amet dui interdum sodales.
-            Ut tincidunt ipsum leo, nec hendrerit odio fermentum at. Cras sit
-            amet nibh lacus. Ut a risus id libero pellentesque consectetur.
-            Vestibulum ornare pulvinar laoreet. Cras non scelerisque tortor, et
-            rutrum sapien.
+          NOOR creators je  mali tim ljudi koji svojim kreativnim razmišljanjem i umećem žele da pomognu malim biznisima da ostvare svoje snove na digitalnom polju. Nas pokreće ljubav prema poslu kojim se bavimo, kao i želja da sve svoje ideje pretočimo u realnost. Slušamo vaše ideje, želje i ciljeve i kreiramo digitalne priče, koje čine da svaki brend bude jedinstven i upečatljiv. 
           </p>
-          <p className="text-start paragraph muted">
-            Sed at lacus vitae augue egestas pulvinar ultricies nec nisi. In
-            aliquet velit sed eros facilisis, in tempus eros imperdiet. Aenean
-            mollis urna aliquet orci placerat porttitor. Aenean tincidunt urna
-            sed faucibus sodales. Donec sit amet eros eros. Duis volutpat arcu
-            at efficitur molestie. Pellentesque gravida dolor risus, a
-            sollicitudin arcu euismod sit amet.
-          </p>
+          
         </div>
       </div>
 
@@ -57,8 +42,7 @@ const Onama = () => {
           <div>
             <h2 className="heading-2 text-start ">Naše vrednosti</h2>
             <p className="text-start paragraph muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna
+             Vrednosti koje Noor tim nudi su od ključnog značaja za stvaranje brenda.
             </p>
             <QuestionCard
               color="darkblue"
