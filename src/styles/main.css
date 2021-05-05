@@ -645,11 +645,11 @@ html {
 }
 
 ::-moz-selection {
-  background: #7fd4ff;
+  background: #ceb19f;
 }
 
 ::selection {
-  background: #7fd4ff;
+  background: #ceb19f;
 }
 
 .hidden {
@@ -689,7 +689,7 @@ h6 span {
 }
 
 blockquote {
-  border-left: 7px solid #7fd4ff;
+  border-left: 7px solid #ceb19f;
   font-size: .9em;
   margin-left: 0;
   padding-left: 1.5em;
@@ -1003,7 +1003,7 @@ label {
 [type="checkbox"].custom + .custom-target,
 [type="radio"].custom + .custom-target {
   background-color: #fff;
-  border: 2px solid #7fd4ff;
+  border: 2px solid #ceb19f;
   cursor: pointer;
   display: inline-block;
   line-height: 0.8;
@@ -1079,7 +1079,7 @@ iframe {
 [type="submit"],
 button,
 .btn {
-  background-color: #7fd4ff;
+  background-color: #ceb19f;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -1113,8 +1113,8 @@ button.btn-lg,
 [type="submit"]:hover,
 button:hover,
 .btn:hover {
-  background-color: #4cc3ff;
-  border-color: #19b2ff;
+  background-color: #bd967d;
+  border-color: #ac7a5b;
 }
 
 [type="reset"]:active,
@@ -1122,8 +1122,8 @@ button:hover,
 [type="submit"]:active,
 button:active,
 .btn:active {
-  background-color: #19b2ff;
-  border-color: #0098e5;
+  background-color: #ac7a5b;
+  border-color: #8c6248;
 }
 
 [type="reset"]:disabled,
@@ -1131,7 +1131,7 @@ button:active,
 [type="submit"]:disabled,
 button:disabled,
 .btn:disabled {
-  background-color: #b2e5ff;
+  background-color: #dfccc1;
   color: white;
   cursor: default;
 }
@@ -1141,7 +1141,7 @@ button:disabled,
 [type="submit"]:focus,
 button:focus,
 .btn:focus {
-  border: 1px solid #0098e5;
+  border: 1px solid #8c6248;
 }
 
 [type="reset"].accent,
@@ -1509,8 +1509,8 @@ p {
 .header {
   position: relative;
   padding: 8em 0 12em 0;
-  background-color: #372799;
-  background-image: linear-gradient(229deg, #8686ff, #372799 58%, #352597);
+  background-color: #ceb19f;
+  background-image: linear-gradient(229deg, #dfcec4, #ceb19f 58%, #ab8a75);
   color: #fff;
   background-clip: border-box;
   overflow: hidden;
@@ -1549,13 +1549,13 @@ h3 {
 }
 
 .btn-primary {
-  background-image: linear-gradient(111deg, #f7828e, #fcb6ab);
+  background-image: linear-gradient(111deg, #85856b, #9b9a85);
 }
 
 .btn-secondary {
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-color: #8686ff;
+  background-color: #dfcec4;
 }
 
 .shadow-low {
@@ -1585,12 +1585,20 @@ h3 {
   background-color: #fff;
 }
 
+.bg-primary-light {
+  background-color: #dfcec4 !important;
+}
+
 .bg-gray {
   background-color: #f2f2fa;
 }
 
 .bg-gradiant-primary {
-  background-image: linear-gradient(229deg, #8686ff, #372799 58%, #352597);
+  background-image: linear-gradient(229deg, #dfcec4, #ceb19f 58%, #ab8a75);
+}
+
+.bg-gradiant-secondary {
+  background-image: linear-gradient(229deg, #9b9a85, #85856b 58%, #74725d);
 }
 
 .mb-3 {

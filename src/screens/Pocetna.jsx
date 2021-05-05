@@ -19,32 +19,31 @@ const Pocetna = () => {
     <div>
       <Header
         page="Digitalni&nbsp; marketing"
-        mainMessage="Potpune Usluge Digitalnog Marketinga"
-        shortMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
-        btn="Nase usluge"
+        mainMessage="NOOR CREATORS"
+        shortMessage="Mi kreiramo vašu digitalnu priču"
+        btn="Saznaj više"
+        btnLink="/onama"
       />
       <div className="section bg-white-gray">
         <div className="container d-flex text-center flex-column">
           <h2 className="heading-2 mb2">
-            Želite Da Vaš Brend Bude
-            <br />
-            Bolje Primećen?
+            Usluge koje nudimo
           </h2>
           <div className="d-grid grid-4">
             <Card
               icon={<MdFormatColorFill style={{ fontSize: "35px" }} />}
-              main="Brend Dizajn &amp; Strategija"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              main="Fotografija & Videografija"
+              description="Profesionalne usluge foto i video sadržaja."
             />
             <Card
               icon={<MdPeople style={{ fontSize: "35px" }} />}
-              main="Vođenje drustvenih mreža"
+              main="Web Dizajn & Web Programiranje"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
 
             <Card
               icon={<MdTrendingUp style={{ fontSize: "35px" }} />}
-              main="Audience Analytics"
+              main="Kreiranje Vizuelnog Brend Identiteta"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
@@ -54,24 +53,40 @@ const Pocetna = () => {
             />
             <Card
               icon={<MdFormatShapes style={{ fontSize: "35px" }} />}
-              main="Copywriting"
+              main="Grafički Dizajn"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
               icon={<MdGroupAdd style={{ fontSize: "35px" }} />}
-              main="Team Training"
+              main="Kreiranje Sadržaja Za Društvene Mreže"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
               icon={<MdTv style={{ fontSize: "35px" }} />}
-              main="Web Development"
+              main="Vođenje Društvenih Mreža"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
             <Card
               icon={<MdEmail style={{ fontSize: "35px" }} />}
-              main="Email Marketing"
+              main="Online Oglašavanje"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
+            <Card
+              icon={<MdEmail style={{ fontSize: "35px" }} />}
+              main="Copywriting"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <Card
+              icon={<MdEmail style={{ fontSize: "35px" }} />}
+              main="Krairanje Marketing Strategije"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <Card
+              icon={<MdEmail style={{ fontSize: "35px" }} />}
+              main="Online Konsultacije"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+          
           </div>
         </div>
       </div>
@@ -84,12 +99,10 @@ const Pocetna = () => {
           >
             <img src="/images/laptop.png" loading="lazy" alt="" />
             <div className="div-block-2">
-              <h1 className="heading-4">Započnite vašu marketing kampanju</h1>
+              <h1 className="heading-4">Započnimo Kreiranje vaše digitalne priče</h1>
 
               <p className="text-start paragraph-2 muted">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare.
+                Zakažite online konsultacije i saznajte koje su usluge potrebne Vašem brendu.
               </p>
               <Link to="#" className="btn btn-primary w-button">
                 Zakažite konsultacije

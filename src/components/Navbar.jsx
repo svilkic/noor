@@ -27,7 +27,7 @@ const Navbar = () => {
       }}
     >
       <div className="container p0 w-100 ">
-        <div className="bg-white w-nav shadow-soft">
+        <div className="bg-primary-light w-nav shadow-soft">
           <nav className="d-flex just-end">
             {links.map((link) => (
               <Link

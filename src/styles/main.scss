@@ -1,15 +1,24 @@
 @import "base/scss-base";
 
-$color-primary: #372799;
-$color-primary-light: #8686ff;
-$color-primary-dark: #352597;
+// $color-primary: #372799;
+// $color-primary-light: #8686ff;
+// $color-primary-dark: #352597;
 
-$color-secondary: #f7828e;
-$color-secondary-light: #fcb6ab;
+// $color-secondary: #f7828e;
+// $color-secondary-light: #fcb6ab;
+
+$color-primary: #ceb19f;
+$color-primary-light: #dfcec4;
+$color-primary-dark: #ab8a75;
+
+$color-secondary: #85856b;
+$color-secondary-light: #9b9a85;
+$color-secondary-dark: #74725d;
 
 * {
   font-family: Roboto, sans-serif;
-}
+} 
+
 p {
   font-size: 16px;
 }
@@ -33,12 +42,7 @@ p {
   position: relative;
   padding: 8em 0 12em 0;
   background-color: $color-primary;
-  background-image: linear-gradient(
-    229deg,
-    $color-primary-light,
-    $color-primary 58%,
-    $color-primary-dark
-  );
+  background-image: linear-gradient(229deg, $color-primary-light, $color-primary 58%, $color-primary-dark);
   color: #fff;
   background-clip: border-box;
   overflow: hidden;
@@ -75,11 +79,7 @@ h3 {
 }
 
 .btn-primary {
-  background-image: linear-gradient(
-    111deg,
-    $color-secondary,
-    $color-secondary-light
-  );
+  background-image: linear-gradient(111deg, $color-secondary, $color-secondary-light);
 }
 
 .btn-secondary {
@@ -106,29 +106,25 @@ h3 {
 
 .bg-white-gray {
   background-color: #fff;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fff),
-    to(#f2f2fa)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2fa));
   background-image: linear-gradient(180deg, #fff, #f2f2fa);
 }
 
 .bg-white {
   background-color: #fff;
 }
+
+.bg-primary-light {
+  background-color: $color-primary-light !important;
+}
 .bg-gray {
   background-color: #f2f2fa;
 }
 .bg-gradiant-primary {
-  background-image: linear-gradient(
-    229deg,
-    $color-primary-light,
-    $color-primary 58%,
-    $color-primary-dark
-  );
+  background-image: linear-gradient(229deg, $color-primary-light, $color-primary 58%, $color-primary-dark);
+}
+.bg-gradiant-secondary {
+  background-image: linear-gradient(229deg, $color-secondary-light, $color-secondary 58%, $color-secondary-dark);
 }
 .mb-3 {
   margin-bottom: 3em;
