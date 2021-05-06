@@ -22,7 +22,7 @@ const Kontakt = () => {
               icon={<MdPhoneInTalk style={{ fontSize: "30px" }} />}
               alt=""
               main="Kontakt broj"
-              description="+ (381) 65 345 01 33"
+              description={`+ (381) 65 345 01 33`}
             />
             <Card
               className="line-height-2"
@@ -36,7 +36,7 @@ const Kontakt = () => {
               className="line-height-2"
               alt=""
               main="Radno vreme"
-              description="Ponedeljak - Petak 10:00 – 17:00pm"
+              description="Ponedeljak - Petak | 09:00 – 17:00pm"
             />
           </div>
         </div>
@@ -44,10 +44,9 @@ const Kontakt = () => {
 
       <div className="section bg-gray">
         <div className="container">
-          <h2 className="heading-2 text-center ">Stupite u kontakt</h2>
-          <p className="mb3">
-            Interested in driving growth? Have a general question? We’re just an
-            email away.
+          <h2 className="heading-2 text-center ">Kontaktirajte nas</h2>
+          <p className="mb3 muted">
+            Kontaktirajte nas putem kontakt forme ili putem telefona.
           </p>
           <div>
             <form className="m-auto max-width-70 text-end">

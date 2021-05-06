@@ -1,23 +1,19 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import { Footer } from "../components/Footer";
-import { usluge } from "./MojgeUsluge";
+import { usluge } from "../services/MojgeUsluge";
+import QuestionCard from '../components/QuestionCard'
 
 const Usluge = ({match,history}) => {
-  const [service,setService] = useState([]);
 
   useEffect(()=>{
-    const serviceID = match.params.id;
-     if(!usluge[serviceID]) history.push("/");
-    setService(usluge[serviceID-1]);
   },[usluge]);
 
   return (
     <div>
       <Header
         page="Usluge"
-        mainMessage={service.name}
-        shortMessage={service.shortDescription}
+        mainMessage="Usluge Koje Nudimo"
       />
 
       <div
@@ -25,12 +21,9 @@ const Usluge = ({match,history}) => {
         style={{ overflow: "initial" }}
       >
         <div className="container">
-          <h2 className="text-start">
-            {service.title}
-          </h2>
-          <p className="text-start paragraph muted">
-            {service.longDescription}
-          </p>
+          {usluge.map(u => (
+            <QuestionCard className="shadow-soft" key={u.id} question={u.name} color={u.color} answer={u.longDescription} />
+          ))}
          
         </div>
       </div>

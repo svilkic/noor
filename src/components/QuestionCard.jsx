@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { MdAddCircleOutline } from "react-icons/md";
 
-const QuestionCard = ({ answer, color = "gray", question }) => {
+const QuestionCard = ({ answer, color = "gray", question,className }) => {
   const [display, setDisplay] = useState(false);
 
   return (
     <div
-      className="questionCard"
+      className={`questionCard ${className?className:""}`}
       style={{ borderLeft: `10px solid ${color}` }}
       onClick={() => setDisplay(!display)}
     >

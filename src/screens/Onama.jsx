@@ -27,7 +27,11 @@ const Onama = () => {
             Ko smo mi?
           </h2>
           <p className="text-start paragraph muted">
-          NOOR creators je  mali tim ljudi koji svojim kreativnim razmišljanjem i umećem žele da pomognu malim biznisima da ostvare svoje snove na digitalnom polju. Nas pokreće ljubav prema poslu kojim se bavimo, kao i želja da sve svoje ideje pretočimo u realnost. Slušamo vaše ideje, želje i ciljeve i kreiramo digitalne priče, koje čine da svaki brend bude jedinstven i upečatljiv. 
+           NOOR creators je  mali tim ljudi koji svojim kreativnim razmišljanjem i umećem žele da pomognu malim biznisima da ostvare svoje snove na digitalnom polju. Nas pokreće ljubav prema poslu kojim se bavimo, kao i želja da sve svoje ideje pretočimo u realnost. Slušamo vaše ideje, želje i ciljeve i kreiramo digitalne priče, koje čine da svaki brend bude jedinstven i upečatljiv. 
+          </p>
+          <p className="text-start paragraph muted">
+            Najlepše Noor priče nastaju uz pomoć našeg izvanrednog i profesionalnog tima, koji sa puno ljubavi rade svoj posao i stvaraju magiju. 
+            Naš tim Vam nudi usluge fotografa, videografa, veb dizajnera, programera, grafičkog dizajnera, SEO stručnjaka, copywritera...
           </p>
           
         </div>

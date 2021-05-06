@@ -13,6 +13,7 @@ import {
   MdEmail,
   MdFormatShapes,
 } from "react-icons/md";
+import { usluge } from "../services/MojgeUsluge";
 
 const Pocetna = () => {
   return (
