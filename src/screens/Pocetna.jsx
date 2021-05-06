@@ -38,53 +38,38 @@ const Pocetna = () => {
             <Card
               icon={<MdPeople style={{ fontSize: "35px" }} />}
               main="Web Dizajn & Web Programiranje"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              description="Kompletna usluga dizajna, redizajna i izrade web sajta."
             />
 
             <Card
               icon={<MdTrendingUp style={{ fontSize: "35px" }} />}
-              main="Kreiranje Vizuelnog Brend Identiteta"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              main="Grafički dizajn & vizuelni brend identitet"
+              description="Usluga kreiranja upečatljivog i jedinstvenog vizuelnog brend identiteta."
             />
             <Card
               icon={<MdSentimentSatisfied style={{ fontSize: "35px" }} />}
-              main="SEO"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              main="SEO & Online oglašavanje"
+              description="Usluge optimizacije sajta, povećanje organskog sadržaja i online oglašavanja."
             />
             <Card
               icon={<MdFormatShapes style={{ fontSize: "35px" }} />}
-              main="Grafički Dizajn"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              main="Društvene mreže"
+              description="Usluge kreiranja sadržaja i vođenja društvenih mreža."
             />
             <Card
               icon={<MdGroupAdd style={{ fontSize: "35px" }} />}
-              main="Kreiranje Sadržaja Za Društvene Mreže"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              main="Marketing strategija"
+              description="Definisanje brenda, pozicioniranje, definisanje komunikacionih kanala, marketing planiranje, istraživanje tržišta…."
             />
             <Card
               icon={<MdTv style={{ fontSize: "35px" }} />}
-              main="Vođenje Društvenih Mreža"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <Card
-              icon={<MdEmail style={{ fontSize: "35px" }} />}
-              main="Online Oglašavanje"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <Card
-              icon={<MdEmail style={{ fontSize: "35px" }} />}
               main="Copywriting"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              description="Kreiranje teksutalnog sadržaja koji upotpunjuje vizuelni sadržaj na društvenim mrežama, veb sajtu..."
             />
-            <Card
-              icon={<MdEmail style={{ fontSize: "35px" }} />}
-              main="Krairanje Marketing Strategije"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
+            
             <Card
               icon={<MdEmail style={{ fontSize: "35px" }} />}
               main="Online Konsultacije"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           
           </div>
